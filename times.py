@@ -6,3 +6,4 @@ def extract_time(text):
     matches_24h = re.findall(time_24h_pattern, text)
     matches_12h = re.findall(time_12h_pattern, text)
     return matches_24h + matches_12h
+
